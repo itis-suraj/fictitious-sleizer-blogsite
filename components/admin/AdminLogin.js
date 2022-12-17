@@ -29,7 +29,7 @@ export default function AdminLogin() {
       setErr(`Status ${res.status}: ${res.error}`);
     }
 
-    router.replace("/admin/messages");
+    router.replace("/admin/sleizer");
     userIdRef.current.value = "";
     passkeyRef.current.value = "";
   }

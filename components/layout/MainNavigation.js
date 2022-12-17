@@ -2,8 +2,10 @@ import Link from "next/link";
 import Logo from "./Logo";
 import styles from "./MainNavigation.module.css";
 import { signOut, useSession } from "next-auth/react";
+import { useRouter } from "next/router";
 
 export default function MainNavigation() {
+  const router = useRouter();
   const { data: session, status } = useSession();
   const loading = status === "loading";
 
@@ -35,7 +37,7 @@ export default function MainNavigation() {
           )}
           {session && (
             <li>
-              <Link href="/admin/messages">Messages</Link>
+              <Link href="/admin/sleizer">Sleizer</Link>
             </li>
           )}
           {session && (
