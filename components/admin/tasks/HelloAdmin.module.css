@@ -1,0 +1,33 @@
+.box {
+  margin: 5rem auto;
+  width: 80%;
+  max-width: 60rem;
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+
+.actions {
+  border-right: 1px solid black;
+  padding: 0 1rem;
+}
+
+.display {
+  border: 1px dotted gray;
+  background-color: rgb(212, 208, 208);
+  margin: 0.5rem 2rem;
+}
+
+.actions button {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(165, 113, 214);
+  color: white;
+}
+
+.actions button:hover {
+  background-color: rgb(150, 83, 212);
+}
