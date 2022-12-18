@@ -15,11 +15,13 @@ async function handler(req, res) {
       res.status(422).json({ message: "Invalid input." });
       return;
     }
+    const date = new Date();
 
     const newMessage = {
       email,
       name,
       message,
+      date,
     };
     let client;
 

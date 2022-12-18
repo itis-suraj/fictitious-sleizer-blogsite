@@ -7,7 +7,7 @@ module.exports = (phase) => {
         mongodb_username: "itis_suraj",
         mongodb_password: "heMSHqF7dOCr5BRk",
         mongodb_clustername: "messages",
-        mongodb_database: "messages-dev",
+        mongodb_database: "messages",
       },
     };
   }
