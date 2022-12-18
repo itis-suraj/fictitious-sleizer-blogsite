@@ -44,7 +44,7 @@ export default function AdminLogin() {
           </div>
           <div className={styles.control}>
             <label htmlFor="passkey">Pass Key</label>
-            <input id="passkey" type="text" ref={passkeyRef} />
+            <input id="passkey" type="password" ref={passkeyRef} />
           </div>
         </div>
         <div className={styles.action}>
